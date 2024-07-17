@@ -1,0 +1,16 @@
+.cool-button-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* if the selector is active : */
+body.cool-styling-active *:hover {
+    outline: red 2px solid !important;
+}
+
+body.cool-styling-active #cool-selector {
+    background: #00d084;
+    color: white;
+    border: white;
+}
