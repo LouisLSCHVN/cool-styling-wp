@@ -57,7 +57,7 @@ class Cool_Settings {
         // wp_enqueue_script('cool-styling', cool_styling_url . 'assets/scripts/styling.js', array('wp-theme-plugin-editor'), '1.0', true);
 
         // Enqueue the styles
-        wp_enqueue_style('cool-styling', cool_styling_url . 'assets/css/settings-page.css');
+        wp_enqueue_style('cool-styling-css', cool_styling_url  . 'assets/css/settings-page.css');
 
         // Display the settings page
         require cool_styling_path . "assets/views/settings-page.php";

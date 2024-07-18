@@ -22,9 +22,11 @@ Customize your WordPress admin area by writing your own CSS. (Work in progress!)
 6. Click "Export CSS" to download your custom styles as a CSS file.
 
 ## TODO
-- Fix a styling bug in the plugin's options panel.
-- Add all elements from the design system below the options for easier selection.
-- Change the way the element is added by removing `nth-of-type(x)`.
+- [X] Fix a styling bug in the plugin's options panel.
+- [X] Add all elements from the design system below the options for easier selection.
+- [X] Change the way the element is added by removing `nth-of-type(x)`.
+- [ ] Add custom themes
+- [ ] Changes Logo and Icon for customization
 
 ## Contributions
 Contributions are welcome! Please fork the repository and submit a pull request.

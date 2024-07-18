@@ -59,8 +59,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (sib.nodeName.toLowerCase() === selector)
                         nth++;
                 }
-                if (nth !== 1)
-                    selector += `:nth-of-type(${nth})`;
             }
             path = selector + ' ' + path;
             el = el.parentNode;

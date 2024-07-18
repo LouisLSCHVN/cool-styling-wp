@@ -27,9 +27,8 @@ Text Domain: cool_styling
  *
  */
 
-if (!defined('ABSPATH')) {
+if (!defined('ABSPATH'))
     exit; // Exit if accessed directly.
-}
 
 // -- CONSTANTS -- //
 define('cool_styling_version', '0.1.0');
